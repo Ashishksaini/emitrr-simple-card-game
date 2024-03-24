@@ -1,0 +1,126 @@
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../images/homebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.walking-img {
+  position: absolute;
+  bottom: 0; /* Place the image at the bottom */
+  animation: walk 16s linear infinite;
+  /* Animation properties */
+  height: 150px;
+
+}
+.home-container > p{
+    margin: 0;
+    padding: 0;
+    /* width: 550px; */
+    font-size: 10px;
+    width: 750px;
+    color: #4d3e3c  ;
+    background-color: white;
+}
+
+@keyframes walk {
+  0% {
+    transform: translateX(-70vw); 
+  }
+  50% {
+    transform: translateX(70vw); 
+  }
+  100% {
+    transform: translateX(-70vw); 
+  }
+}
+
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  /* display: none; */
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,22,1,0.9); /* Semi-transparent white background for form */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  /* color: #231914; */
+}
+
+form {
+  width: 300px;
+  margin: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+  color: gray;
+  font-size: 14px;
+  cursor: pointer;
+  letter-spacing: 3px;
+}
+form label{
+    color :white !important;
+    /* display: none; */
+    letter-spacing: 5px;
+    font-weight: bolder;
+}
+form > h2{
+    font-size: 40px;
+    letter-spacing: 5px;
+    color: rgb(252,243,214);
+}
+.submit{
+    background-color: black;
+}

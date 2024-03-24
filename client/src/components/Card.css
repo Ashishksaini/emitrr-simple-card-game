@@ -1,0 +1,59 @@
+.card {
+    height: 249px;
+    width: 177px;
+    border: solid 1px #d1d1d1;
+    border-radius: 15px; 
+    background-color: #fbfbfb;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); /* Adjust values as needed */
+    margin: 10px;
+    background-image: url('../images/card-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    /* position: absolute;
+    left: 0;
+    right: 0; */
+
+    transition: transform 0.5s; /* Transition for flip animation */
+}
+.card  >p{
+    position: relative;
+    top: 30px;
+    font-size: 50px;
+
+}
+.flipped {
+    transform: rotateY(180deg); /* Apply rotation for flip effect */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    min-height: 249px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+ flex-wrap: wrap;
+}
+.bounce-and-enlarge {
+  animation: bounceAndEnlarge 0.5s ease infinite;
+}
+
+@keyframes bounceAndEnlarge {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-100px) scale(1.2);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+.gradient{
+    background-image: none;
+       background: linear-gradient(135deg, black, #c0c0c0)!important;
+    }
