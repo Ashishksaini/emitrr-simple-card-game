@@ -7,6 +7,8 @@
 
 ![Screenshot (326)](https://github.com/Ashishksaini/emitrr-simple-card-game/assets/73321601/0bde1f34-0a14-4bec-a6d1-3d313d917183)
 
+![screen-capture (5) (1)](https://github.com/Ashishksaini/emitrr-simple-card-game/assets/73321601/3639bc81-aca9-4e06-87e4-9a5f0b59f0a7)
+
 ![screen-capture (4)](https://github.com/Ashishksaini/emitrr-simple-card-game/assets/73321601/7ac30a89-462a-4610-9a31-570ac212f50c)
 
 ![screen-capture (2)](https://github.com/Ashishksaini/emitrr-simple-card-game/assets/73321601/2d0bd52f-b593-4306-b17c-c48eb39126b8)
